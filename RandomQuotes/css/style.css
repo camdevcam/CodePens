@@ -1,0 +1,29 @@
+html { 
+  background: url('https://vignette.wikia.nocookie.net/mugen/images/b/bb/Deadpool_Movie.jpg/revision/latest?cb=20161108011949');
+  background-repeat:repeat;
+}
+.quote { 
+  background: #ddd;
+  width: 500px;
+  border: 1px dashed #444;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+button { 
+  float:right; 
+  background: #000000; 
+  padding:10px;
+  width: 200px;
+  color: #ffffff;
+}
+h4 { 
+  text-align: right;
+  font-size: 30px;
+}
+a { 
+  color: pink;
+}
+p { font-size: 20px; 
+  font-style:italic;
+}
