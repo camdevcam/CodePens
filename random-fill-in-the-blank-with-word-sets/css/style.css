@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;
+  line-height: 1.65em;
+  background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/escheresque_ste.png');
+  color: #fff;
+  font-weight: 300;
+}
+span { 
+  font-size: 14px;
+}
+h1 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+#button {
+    background: #0b7fba;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+/*     margin: 0 auto 160px; */
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 200px;
+    margin-top:30px;
+    float:right;
+}
+input { 
+  text-align: center; 
+  font-size: 24px;
+  width: auto;
+  background: transparent;
+  border: 0px;
+  color: #fff;
+  width: 165px;
+  border-bottom: 1px solid #fff;
+}
+.wrap_contain {
+  width: 550px;
+  background: #000000;
+  margin:0 auto;
+  padding: 70px;
+  border-radius: 4px 4px 4px;
+}

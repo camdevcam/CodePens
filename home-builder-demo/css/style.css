@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+html, body { 
+  font-family: font-family: 'Playfair Display', serif;
+}
+.wrap { 
+  max-width: 580px;
+  margin: 0 auto;
+  background:#ccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #333;
+}
+h1 { 
+  text-align:center;
+}
+form { 
+  text-align:center;
+}
+.debug {
+    border: 1px dotted #FF69B4;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    display: none;
+    margin-top:20px;
+}
+button { 
+  margin-top:5px;
+}

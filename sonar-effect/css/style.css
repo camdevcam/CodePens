@@ -1,0 +1,112 @@
+body {
+  background: #222;
+}
+.solar{
+	position: absolute;
+/* 	bottom: 100px;
+	left: 48%; */
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	background: #2c3e50;
+	background: rgba(44,62,80,.4);
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+	z-index: 1;
+	-webkit-transition: -webkit-transform ease-out .1s,background .2s;
+	-moz-transition: -moz-transform ease-out .1s,background .2s;
+	transition: transform ease-out .1s,background .2s;
+	behavior: url(/themes/digitalefactuur/css/PIE.htc)
+}
+
+.solar:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box
+}
+
+.solar .fui-arrow-right {
+	color: #fff;
+	font-size: 1.5em;
+	margin-left: 2px
+}
+
+.solar:after {
+	top: 0;
+	left: 0;
+	padding: 0;
+	z-index: -1;
+	box-shadow: 0 0 0 20px rgba(255,255,255,.1);
+	opacity: 0
+}
+
+.no-touch .solar.active {
+	color: #fff
+}
+#IMG_2 { 
+  width:150px;
+}
+.solar.active:after {
+	-webkit-animation: sonarEffect 1.3s ease-out 75ms;
+	-moz-animation: sonarEffect 1.3s ease-out 75ms;
+	animation: sonarEffect 1.3s ease-out 75ms
+}
+
+@-webkit-keyframes sonarEffect {
+	0% {
+		opacity: .3
+	}
+
+	40% {
+		opacity: .5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8)
+	}
+
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+		-webkit-transform: scale(1.5);
+		opacity: 0
+	}
+}
+
+@-moz-keyframes sonarEffect {
+	0% {
+		opacity: .3
+	}
+
+	40% {
+		opacity: .5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8)
+	}
+
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+		-moz-transform: scale(1.5);
+		opacity: 0
+	}
+}
+
+@keyframes sonarEffect {
+	0% {
+		opacity: .3
+	}
+
+	40% {
+		opacity: .5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+    transform: scale(1.5);
+	}
+
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+		transform: scale(4.5);
+		opacity: 0
+	}
+}

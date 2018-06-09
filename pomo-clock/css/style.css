@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    color: white;
+    font-family: 'Dhurjati';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #212121;
+}
+
+h2 {
+    display: inline;
+    color: #ff4500;
+}
+
+
+#start {
+    margin: 10px;
+}
+
+.text-center {
+    background-color: #212121;
+    text-align: center;
+    margin: 100px auto;
+    width: 300px;
+    border-radius: 7px;
+}
